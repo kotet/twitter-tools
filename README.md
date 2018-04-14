@@ -9,4 +9,7 @@ $ cat auth_kotet.txt dup.txt | python destroy.py
 $ cat auth_kotet.txt target.txt | python getfollowing.py > kotet_following.txt
 $ sort kotet_following.txt apu_list.txt | uniq -d > follow.txt
 $ cat auth_kotetsec.txt mustfollow.txt | python follow.py
+$ cat auth_kotet.txt kotetttt.txt | python getfollowing.py > kotet_following.txt
+$ sort kotet_following.txt apu_list.txt | uniq -d > dup.txt
+$ cat auth_kotet.txt dup.txt | python destroy.py
 ```
