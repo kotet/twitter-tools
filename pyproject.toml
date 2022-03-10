@@ -5,7 +5,7 @@ description = ""
 authors = ["Kotet <kotet0418@gmail.com>"]
 license = "MIT"
 include = [
-    "config.json"
+    "twittertools/config.json"
 ]
 
 [tool.poetry.dependencies]
